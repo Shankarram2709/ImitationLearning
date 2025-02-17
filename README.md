@@ -14,6 +14,6 @@ This repository contains a deep learning model for predicting future vehicle way
    git clone https://github.com/Shankarram2709/ImitationLearning.git
 2. Train the model:
    ```bash
-  python main.py --config "Path to configs folder containing yaml" --data-dir "Path to the dataset containing objects, lanes, imu and 
-  waypoint information"
+   python main.py --config "Path to configs folder containing yaml" --data-dir "Path to the dataset containing objects, lanes, imu and 
+   waypoint information"
    
