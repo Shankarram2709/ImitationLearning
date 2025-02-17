@@ -1,0 +1,13 @@
+seed: 42
+batch_size: 8
+epochs: 50
+lr: 1e-3
+weight_decay: 1e-2
+attn_dim: 32
+gru_hidden: 128
+fusion_hidden: 256
+dropout: 0.5
+val_split: 0.2
+noise_std: 0.05
+waypoint_weights: [0.5, 0.3, 0.2, 0.1]
+max_ts_diff: 1e5  #seconds tolerance
